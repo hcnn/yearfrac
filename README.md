@@ -1,9 +1,8 @@
 # yearfrac
 
 
-30/360  `d30360`
+30/360
 
-* `d30360e` -- 30E/360 ISDA, Eurobond Basis ISDA-2000, German SWX, German Master EBF MA
 * `d30360e2` -- 30E2/360, Eurobond basis model 2
 * `d30360e3` -- 30E3/360, Eurobond basis model 3
 * `d30360p` -- 30E+/360
@@ -11,30 +10,31 @@
 * `d30360m` -- 30/360 US EOM
 * `d30360n` -- 30/360 NASD
 * `d30360u` -- 30/360 ISDA, 30U/360, 30/360 US, 30/360 Bond Basis, 30/360 U.S. Municipal, American Basic Rule
+* (not available) `d30360e` -- 30E/360 ISDA, Eurobond Basis ISDA-2000, German SWX, German Master EBF MA
 
-30/365  `d30365`
+30/365
 
 * `d30365` -- 30/365
 
-30/act  `d30act`
+30/act
 
-* `d30act` -- 30/Actual
+* (not available) `d30act` -- 30/Actual
 
-act/360 `act360`
+act/360
 
 * `act360` -- Actual/360, French
 
-act/365 `act365`
+act/365
 
 * `act365n` -- Actual/365NL, Actual/365 No Leap
-* `act365l` -- Actual/365L, Actual/Actual Basic Rule, ISMA-Year
 * `act365f` -- Actual/365 Fixed, English
+* (not available) `act365l` -- Actual/365L, Actual/Actual Basic Rule, ISMA-Year
 
-act/act `actact`
+act/act
 
 * `act_isda` -- Actual/Actual ISDA
-* `act_icma` -- Actual/Actual ICMA
 * `act_afb` -- Actual/Actual AFB
+* (not available) `act_icma` -- Actual/Actual ICMA
 
 
 ### Installation
