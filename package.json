@@ -1,0 +1,24 @@
+{
+  "name": "yearfrac",
+  "version": "0.1.0",
+  "repo": "hcnn/yearfrac",
+  "description": "Date difference in years",
+  "keywords": ["daycount", "date difference", "year fraction"],
+  "license": "MIT",
+  "src": ["yearfrac.c", "yearfrac.h"],
+  "dependencies": {
+    "hcnn/act_afb": "0.1.0",
+    "hcnn/act_isda": "0.1.0",
+    "hcnn/act360": "0.1.0",
+    "hcnn/act365f": "0.1.0",
+    "hcnn/act365n": "0.1.0",
+    "hcnn/d30360e2": "0.1.0",
+    "hcnn/d30360e3": "0.1.0",
+    "hcnn/d30360m": "0.1.0",
+    "hcnn/d30360n": "0.1.0",
+    "hcnn/d30360p": "0.1.0",
+    "hcnn/d30360s": "0.1.0",
+    "hcnn/d30360u": "0.1.0",
+    "hcnn/d30365": "0.1.0"
+  }
+}
